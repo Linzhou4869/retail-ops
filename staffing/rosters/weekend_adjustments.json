@@ -1,0 +1,135 @@
+{
+  "location": "Lagos Flagship Store",
+  "week_of": "2026-03-28",
+  "adjustment_type": "weekend_rush_preparation",
+  "created_by": "store_manager",
+  "last_updated": "2026-03-28T12:00:00+01:00",
+  "shifts": [
+    {
+      "shift_id": "SAT-001",
+      "date": "2026-03-28",
+      "day": "Saturday",
+      "department": "cashier",
+      "position": "Senior Cashier",
+      "employee_id": "EMP-NG-042",
+      "employee_name": "Adaeze Okonkwo",
+      "scheduled_hours": {
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "adjustment": {
+        "type": "extension",
+        "new_end_time": "19:00",
+        "reason": "Peak evening rush coverage",
+        "approved_by": "Chioma Nwosu",
+        "overtime_hours": 2
+      }
+    },
+    {
+      "shift_id": "SAT-002",
+      "date": "2026-03-28",
+      "day": "Saturday",
+      "department": "cashier",
+      "position": "Cashier",
+      "employee_id": "EMP-NG-087",
+      "employee_name": "Tunde Bakare",
+      "scheduled_hours": {
+        "start": "12:00",
+        "end": "20:00"
+      },
+      "adjustment": {
+        "type": "addition",
+        "reason": "Extra coverage for weekend rush",
+        "approved_by": "Chioma Nwosu",
+        "is_new_shift": true
+      }
+    },
+    {
+      "shift_id": "SAT-003",
+      "date": "2026-03-28",
+      "day": "Saturday",
+      "department": "sales_floor",
+      "position": "Sales Associate",
+      "employee_id": "EMP-NG-015",
+      "employee_name": "Fatima Abdullahi",
+      "scheduled_hours": {
+        "start": "10:00",
+        "end": "18:00"
+      },
+      "adjustment": {
+        "type": "swap",
+        "original_employee": "Ibrahim Musa",
+        "original_employee_id": "EMP-NG-023",
+        "reason": "Requested swap for family event",
+        "approved_by": "Chioma Nwosu"
+      }
+    },
+    {
+      "shift_id": "SUN-001",
+      "date": "2026-03-29",
+      "day": "Sunday",
+      "department": "cashier",
+      "position": "Cashier",
+      "employee_id": "EMP-NG-056",
+      "employee_name": "Chinedu Okafor",
+      "scheduled_hours": {
+        "start": "10:00",
+        "end": "18:00"
+      },
+      "adjustment": {
+        "type": "extension",
+        "new_end_time": "20:00",
+        "reason": "Sunday evening peak coverage",
+        "approved_by": "Chioma Nwosu",
+        "overtime_hours": 2
+      }
+    },
+    {
+      "shift_id": "SUN-002",
+      "date": "2026-03-29",
+      "day": "Sunday",
+      "department": "stockroom",
+      "position": "Stock Associate",
+      "employee_id": "EMP-NG-091",
+      "employee_name": "Yusuf Ibrahim",
+      "scheduled_hours": {
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "adjustment": {
+        "type": "addition",
+        "reason": "Merchandise restocking for weekend demand",
+        "approved_by": "Chioma Nwosu",
+        "is_new_shift": true
+      }
+    },
+    {
+      "shift_id": "SUN-003",
+      "date": "2026-03-29",
+      "day": "Sunday",
+      "department": "sales_floor",
+      "position": "Senior Sales Associate",
+      "employee_id": "EMP-NG-008",
+      "employee_name": "Blessing Eze",
+      "scheduled_hours": {
+        "start": "11:00",
+        "end": "19:00"
+      },
+      "adjustment": {
+        "type": "swap",
+        "original_employee": "Amina Yusuf",
+        "original_employee_id": "EMP-NG-034",
+        "reason": "Coverage for team training session",
+        "approved_by": "Chioma Nwosu"
+      }
+    }
+  ],
+  "summary": {
+    "total_adjustments": 6,
+    "extensions": 2,
+    "additions": 2,
+    "swaps": 2,
+    "total_overtime_hours": 4,
+    "departments_affected": ["cashier", "sales_floor", "stockroom"]
+  }
+}
